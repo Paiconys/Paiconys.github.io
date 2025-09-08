@@ -1,0 +1,91 @@
+#Main\ header {
+    width: stratch;
+    height: 104px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-position: center top;
+    font-family: "Motiva Sans", Sans-serif;
+    color: #969696;
+    font: 14px;
+    background: #171d25;
+    
+}
+
+.content{
+    background: #171d25;
+    position: relative;
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+    z-index: 402;
+
+}
+
+.logo{
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 44px;
+    height: 44px;
+}
+
+.links{
+    position: absolute;
+    left: 200px;
+    height: 72.5px;
+
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+
+
+}
+
+.cv_downloader_holder {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 124px;
+    height: 32px;
+    background-color: green;
+ 
+}
+
+#Profile\ header{
+    background-color: #1c75ea;
+     display: flex;
+    width: stratch;
+    height: 178px;
+    padding-bottom: 0px;
+}
+
+.profile_header_centred_col{
+     width: 490px;
+    height: 168px;
+    padding-left: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Main\ content{
+
+    width: 632px;
+    height: 848px;
+    background-color: #171d25;
+}
+
+#main\ content\ rihht\ col {
+    width: 260px;
+    height: 848px;
+    background: #222;
+    color: #fff;
+}
+
+.footer{
+    width: stratch;
+    background: #ce10a1;
+    color: #969696;
+  
+}
