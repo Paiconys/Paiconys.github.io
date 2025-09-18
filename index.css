@@ -1,6 +1,6 @@
 body{
     background-image: url("./img/photo-1628953535333-a64a918181c0.jpeg");
-    background-size: 1900px 1000px;
+    background-size: 1900px 1080px;
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@ header {
 
 .links a{
     padding-top: 40px;
-    color : #DCDEDF;
+    color : hsl(200, 4%, 87%);
     text-decoration: none;
     font-size: 20px;
 }
@@ -87,7 +87,7 @@ header {
 
 
 #Profile_header{
-    padding-top: 20px;
+    padding-top: 24px;
     display: flex;
     justify-content: center;
 
@@ -96,8 +96,8 @@ header {
 
 .profile_avatar{
     position: relative;
-    width: 184px;
-    height: 184px;
+    width: 164px;
+    height: 164px;
  
 }
 
@@ -108,21 +108,80 @@ header {
     width: 100%; /* Растягиваем фото на весь контейнер */
     height: 100%;
     object-fit: cover; /* Заполняем контейнер без искажений */
-    padding-left: 20px;
-    padding-top: 20px;
+   
+   /* padding-left: 9%;
+    padding-top: 9%; */
+
 }
 
 .avatar-frame {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 199px; /* Растягиваем фото на весь контейнер */
+    height: 199px;
     z-index: 2; 
+    top: -18px;
+    left: -18px;
+
 }
 
 .profile_header_centred_col{
     position: relative;
-    padding-left: 40px;
-    padding-top: 40px;
-    font-size: 20px;
+    padding-left: 36px;
+    padding-right: 18px;
+    width: 490px;
 
+
+}
+
+.name{
+
+    font-family: "Motiva Sans", Sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 40px;
+    margin-bottom: 8px;
+
+}
+
+.location{
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    /* color: #c4c4c4; */
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+.about{
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.profile_header_expiriance_info{
+    position: relative;
+    color: #FFFFFF;
+}
+
+.expiriance_time{
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 24px;
+    height: 40px;
+
+}
+
+.university_badge{
+    display: flex;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 268px;
+    padding-top: 8px;
+    align-items: center;   /* по вертикали */
+}
+
+.uni_name{
+    display: flex;
+    align-items: center;  
+    padding-left: 7px;
+    position: relative;
 }
