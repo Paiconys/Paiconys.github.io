@@ -1,4 +1,11 @@
-#Main\ header {
+body{
+    background-image: url("./img/photo-1628953535333-a64a918181c0.jpeg");
+    background-size: 1900px 1000px;
+    background-repeat: no-repeat;
+}
+
+
+header {
     width: stratch;
     height: 104px;
     padding-left: 16px;
@@ -9,6 +16,63 @@
     font: 14px;
     background: #171d25;
     
+    
+    
+}
+
+.content{
+    position: center;
+}
+
+.logo{
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 44px;
+    height: 44px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    padding-top: 40px;
+    color : #DCDEDF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links a:hover{
+    color : #1c75ea;
+    text-decoration: underline;
+    
+}
+
+.cv_downloader_holder a{
+    position: absolute;
+    top: 10px;
+    right: 24px;
+    width: 124px;
+    height: 32px;
+    background-color: darkgreen;
+    color : #DCDEDF;
+    text-decoration: none;
+    text-align: center;
+     /* Вот ключевые свойства для центрирования: */
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;     /* Центрирование по вертикали */
+    
+    /* Дополнительно для красоты */
+    text-align: center; /* Центрирование текста внутри параграфа */
+ 
+}
+
+.cv_downloader_holder a:hover{
+    background-color: green ;
+
 }
 
 .content{
@@ -21,71 +85,44 @@
 
 }
 
-.logo{
-    float: left;
-    padding-top: 30px;
-    margin-right: 40px;
-    width: 44px;
-    height: 44px;
-}
 
-.links{
-    position: absolute;
-    left: 200px;
-    height: 72.5px;
-
-    padding-top: 45px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
+#Profile_header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 
 
 }
 
-.cv_downloader_holder {
-    position: fixed;
-    top: 24px;
-    right: 24px;
-    width: 124px;
-    height: 32px;
-    background-color: green;
+.profile_avatar{
+    position: relative;
+    width: 184px;
+    height: 184px;
  
 }
 
-#Profile\ header{
-    background-color: #1c75ea;
-     display: flex;
-    width: stratch;
-    height: 178px;
-    padding-bottom: 0px;
+
+
+.avatar-photo {
+    position: absolute;
+    width: 100%; /* Растягиваем фото на весь контейнер */
+    height: 100%;
+    object-fit: cover; /* Заполняем контейнер без искажений */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.avatar-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
 }
 
 .profile_header_centred_col{
-     width: 490px;
-    height: 168px;
-    padding-left: 168px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    position: relative;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 20px;
 
-#Main\ content{
-
-    width: 632px;
-    height: 848px;
-    background-color: #171d25;
-}
-
-#main\ content\ rihht\ col {
-    width: 260px;
-    height: 848px;
-    background: #222;
-    color: #fff;
-}
-
-.footer{
-    width: stratch;
-    background: #ce10a1;
-    color: #969696;
-  
 }
