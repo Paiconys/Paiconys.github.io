@@ -241,3 +241,36 @@ header {
 .job_indicator:hover{
     color: #040a13;
 }
+
+.resume{
+    font-size: 20px;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.resume:hover{
+    font-size: 21px;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    padding-top: 16px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.most_used_languages{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.plang{
+    position: relative;
+    flex-direction: row;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin: 0;
+}
