@@ -48,134 +48,174 @@
 
 
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <title>Dmitry Karmazin | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../index.css">
+    <meta name="description" content="Student developer portfolio of Dmitry Karmazin: university projects, lab work, and programming portfolio.">
+    <link rel="stylesheet" href="./index.css">
 </head>
+<body>
+    <header class="site-header">
+        <div class="content">
+            <a class="logo" href="https://github.com/Paiconys" target="_blank" rel="noreferrer">
+                <img src="./img/logo.webp" alt="Logo" width="44" height="44">
+            </a>
 
+            <nav class="links" aria-label="Social links">
+                <a href="https://github.com/Paiconys" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="mailto:dvkarmazin@gmail.com">Gmail</a>
+                <a href="https://www.linkedin.com/in/dima-karmazin-330676282" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://t.me/Paiconys" target="_blank" rel="noreferrer">Telegram</a>
+            </nav>
 
-
-<body style = "background-color : transparent;">
-
-<header>
-
-    <div class = "content" >
-            <div class="logo">
-                <span id="logo_holder">
-                    <a href="https://konosuba.fandom.com/ru/wiki/Чомусуке">
-                        <img src="../img/logo.webp" alt="Main page" width="44" height="44">
-                    </a>
-                </span>
-            </div>
-            
-            <div class = "links" >
-                <a href="https://github.com/Paiconys" target="_blank">GitHub</a> 
-                <a href="mailto:dvkarmazin@gmail.com" target="_blank">Gmail</a> 
-                <a href="www.linkedin.com/in/dima-karmazin-330676282" target="_blank">LinkedIn</a> 
-                <a href="https://t.me/Paiconys" target="_blank">Telegram</a>
-            </div>
-
-            <div class = "cv_downloader_holder" >
-            <a href="../Resume/Dmitry Karmazin.pdf" class="cv_downloader" download>Download CV</a>
-            </div>
-
-
-
-    </div>    
-
-        
-    
-</header>
-
-
-<main>
-    <div id = "Profile_header" class = "main_header" >
-
-        <div class = "profile_avatar" >
-            <img src="../img/avatar.jpg" class="avatar-photo">
-            <img src="../img/frame.png" class="avatar-frame">
-        </div>
-
-        <div class = "profile_header_centred_col" >
-
-           <div class = "name">
-            <span class="actual_name">Dmitry Karmazin</span>
-           </div>
-
-           <div class="location">
-            <img src="../img/ua.gif" alt="country flag">
-            Dnipropetrovs'ka Oblast', Ukraine	
-           </div>
-
-           <div class = "about">
-            I have actively worked on a wide range of university-assigned projects, 
-            implementing solutions in multiple programming languages such as C++,
-            Java, Python, and JavaScript, which helped me develop strong problem-
-            solving, analytical, and software design skills.
-           </div>
-
-        </div>
-
-        <div class="profile_header_expiriance_info ">
-            <div class = "expiriance_time"> Expiriance
-                <img src="../img/backgrouns.gif" alt="Иконка" width="20" height="20">
-            </div>
-            <div class = "university_badge"> 
-                <img src="../img/DNU_gerb.png" alt="Иконка" width="54" height="54">
-                    <div class = "uni_name">DNO University</div>
+            <div class="cv_downloader_holder">
+                <a href="./Resume/Karmazin%20Dmitry.pdf" class="cv_downloader" download>Download CV</a>
             </div>
         </div>
-        
+    </header>
 
-    </div>
+    <main class="page-shell">
+        <section id="Profile_header" class="main_header panel">
+            <div class="profile_avatar">
+                <img src="./img/avatar.jpg" class="avatar-photo" alt="Dmitry Karmazin portrait">
+                <img src="./img/frame.png" class="avatar-frame" alt="">
+            </div>
 
-    <div id="Main_content">
+            <div class="profile_header_centred_col">
+                <p class="eyebrow">Student Developer</p>
+                <h1 class="name">Dmitry Karmazin</h1>
 
-
-        <div class="window">
-            a gde
-        </div>
-
-        <div class="right_col">
-            <div class = "job_indicator">Loocking for a job</div>
-
-            <div class = "resume">RESUME</div>
-
-            <div class = "most_used_languages">
-                
-                Most used Languages:
-                
-              
-                <div>
-                <img src="../img/c++.png" class="plang">
-                <img src="../img/java.png" class="plang">
-                <img src="../img/python.png" class="plang">
+                <div class="location">
+                    <img src="./img/ua.gif" alt="Ukraine flag">
+                    <span>Dnipropetrovsk Oblast, Ukraine</span>
                 </div>
 
+                <div class="section_label">About me</div>
+                <p class="about">
+                    I am an Applied Mathematics student at DNU building a public portfolio from real university labs,
+                    backend exercises, and small programming projects. I mainly work with C++, Java, Python,
+                    JavaScript, and Prolog, and I enjoy turning rough coursework into cleaner repos with readable structure.
+                </p>
+
+                <ul class="quick_facts">
+                    <li>Coursework-based portfolio with public GitHub repos</li>
+                    <li>Interested in backend, problem solving, and software engineering</li>
+                    <li>Currently improving old projects and turning them into clean portfolio entries</li>
+                </ul>
             </div>
 
-            <div id = "projects">projects</div>
+            <div class="profile_header_expiriance_info">
+                <div class="expiriance_time">
+                    Portfolio Status
+                    <img src="./img/backgrouns.gif" alt="" width="20" height="20">
+                </div>
 
-            <div id = "skills">beeng positive</div>
+                <div class="university_badge">
+                    <img src="./img/DNU_gerb.png" alt="DNU badge" width="54" height="54">
+                    <div class="uni_name">Dnipro National University</div>
+                </div>
 
+                <div class="status_note">Actively filling this page with finished university work.</div>
+            </div>
+        </section>
 
-            <!-- idk mb make it shrter cause dont now what to add or add in bot some design like tower or smth -->
+        <section id="Main_content">
+            <div class="window panel">
+                <div class="window_overlay">
+                    <div class="meme_tag">still assembling the portfolio...</div>
+                    <div class="content_intro">
+                        <div class="about_panel">
+                            <h2>About this page</h2>
+                            <p class="section_copy">
+                                This is a small personal portfolio inspired by a Steam-like layout, but focused on real
+                                study work, programming practice, and repositories that already contain useful code.
+                            </p>
+                            <div class="fact_row">
+                                <span class="fact_chip">Applied Mathematics</span>
+                                <span class="fact_chip">University Projects</span>
+                                <span class="fact_chip">GitHub Portfolio</span>
+                            </div>
+                        </div>
 
-            <div id = ""></div>
+                        <div class="projects_intro">
+                            <div class="section_label">Projects</div>
+                            <h2>Featured Repositories</h2>
+                            <p class="section_copy">
+                                A few public repositories that already show real code instead of empty placeholders.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project_grid">
+                        <a class="project_card" href="https://github.com/Paiconys/prolog-ai-labs-2025-2026" target="_blank" rel="noreferrer">
+                            <span class="project_type">Prolog</span>
+                            <strong>AI Labs 1-4</strong>
+                            <span>Source files extracted from reports and separated into clean lab folders.</span>
+                        </a>
+
+                        <a class="project_card" href="https://github.com/Paiconys/java-backend-maven-labs-2023" target="_blank" rel="noreferrer">
+                            <span class="project_type">Java / Maven</span>
+                            <strong>Multi-module Calculator</strong>
+                            <span>University Maven project with source code and lab report stored separately.</span>
+                        </a>
+
+                        <a class="project_card" href="https://github.com/Paiconys/methods-of-programming-labs-2025-2026" target="_blank" rel="noreferrer">
+                            <span class="project_type">Dafny</span>
+                            <strong>Methods of Programming Labs</strong>
+                            <span>Formal methods coursework repository with multiple structured lab tasks.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="right_col panel">
+                <div class="job_indicator">Open to internships / junior opportunities</div>
+
+                <div class="resume">Core Stack</div>
+
+                <div class="most_used_languages">
+                    <span>Most used languages:</span>
+                    <div class="language_icons">
+                        <img src="./img/c++.png" class="plang" alt="C++">
+                        <img src="./img/java.png" class="plang" alt="Java">
+                        <img src="./img/python.png" class="plang" alt="Python">
+                    </div>
+                </div>
+
+                <div class="side_block">
+                    <h3>Education</h3>
+                    <p>Applied Mathematics, DNU</p>
+                </div>
+
+                <div class="side_block">
+                    <h3>Projects</h3>
+                    <p>Public repositories are gradually being cleaned up and separated into code + report format.</p>
+                </div>
+
+                <div class="side_block">
+                    <h3>What I work on</h3>
+                    <ul>
+                        <li>University labs and coursework</li>
+                        <li>Backend and console applications</li>
+                        <li>Code cleanup for portfolio publishing</li>
+                    </ul>
+                </div>
+
+                <div class="side_block">
+                    <h3>Current focus</h3>
+                    <p>Turning older study work into cleaner public repositories with readable structure.</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_inner">
+            <strong>Site is still under development.</strong>
+            <span>More projects and cleaner sections will be added over time.</span>
         </div>
-
-    </div>
-
-    <!-- add some projects here -->
-
-
-</main>       
-<footer class = "footer">
-    <div><h2>Site is curntly under development</h2></Site></div>
-</footer>
-
+    </footer>
 </body>
 </html>
