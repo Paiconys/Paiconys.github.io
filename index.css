@@ -15,10 +15,7 @@
 
 html {
     color-scheme: dark;
-    background-color: #000;
-    background-image: repeating-conic-gradient(#ff00ff 0% 25%, #000 0% 50%);
-    background-size: 48px 48px;
-    background-position: 0 0;
+    background-color: #171d25;
     min-height: 100%;
 }
 
@@ -27,14 +24,13 @@ body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-main);
-    background-color: transparent;
+    background-color: #171d25;
     background-image:
         linear-gradient(rgba(7, 13, 21, 0.4), rgba(7, 13, 21, 0.55)),
         url("./img/photo-1628953535333-a64a918181c0.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: scroll;
 }
 
 a {
