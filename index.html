@@ -54,7 +54,7 @@
     <title>Dmitry Karmazin | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Python backend & OSINT portfolio of Dmitry Karmazin: ShadowCrawl, VacancyPulse API, and OpenSignal Pipeline.">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css?v=header5">
 </head>
 <body>
     <header class="site-header">
@@ -66,7 +66,7 @@
             <nav class="links" aria-label="Social links">
                 <a href="https://github.com/Paiconys" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="mailto:dvkarmazin@gmail.com">Gmail</a>
-                <a href="https://www.linkedin.com/in/dima-karmazin-330676282" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/paiconys" target="_blank" rel="noreferrer">LinkedIn</a>
                 <a href="https://t.me/Paiconys" target="_blank" rel="noreferrer">Telegram</a>
             </nav>
 
@@ -79,8 +79,7 @@
     <main class="page-shell">
         <section id="Profile_header" class="main_header panel">
             <div class="profile_avatar">
-                <img src="./img/avatar.jpg" class="avatar-photo" alt="Dmitry Karmazin portrait">
-                <img src="./img/frame.png" class="avatar-frame" alt="">
+                <img src="./img/avatar-drow.png?v=5" class="avatar-photo" alt="Drow Ranger Dread Retribution Arcana">
             </div>
 
             <div class="profile_header_centred_col">
@@ -91,25 +90,12 @@
                     <img src="./img/ua.gif" alt="Ukraine flag">
                     <span>Dnipropetrovsk Oblast, Ukraine</span>
                 </div>
-
-                <div class="section_label">About me</div>
-                <p class="about">
-                    Applied Mathematics student at DNU focused on async Python backends, scraping/OSINT systems,
-                    and production-shaped services with FastAPI, Redis, PostgreSQL/MongoDB, and Docker.
-                    I build public portfolio systems that demonstrate Clean Architecture, resilient workers, and real ops tooling.
-                </p>
-
-                <ul class="quick_facts">
-                    <li>Async Python: FastAPI, aiohttp, Playwright, SQLAlchemy 2.0</li>
-                    <li>Data & OSINT pipelines with Redis queues, DLQ, and Docker Compose</li>
-                    <li>Open to Junior / Strong Junior Python backend roles</li>
-                </ul>
             </div>
 
             <div class="profile_header_expiriance_info">
                 <div class="expiriance_time">
                     Portfolio Status
-                    <img src="./img/backgrouns.gif" alt="" width="20" height="20">
+                    <img src="./img/backgrouns.gif?v=pingpong" alt="" width="20" height="20">
                 </div>
 
                 <div class="university_badge">
@@ -122,51 +108,91 @@
         </section>
 
         <section id="Main_content">
-            <div class="window panel">
-                <div class="window_overlay">
-                    <div class="meme_tag">backend · async · OSINT</div>
-                    <div class="content_intro">
-                        <div class="about_panel">
-                            <h2>About this page</h2>
-                            <p class="section_copy">
-                                Steam-style portfolio with public Python backend repos.
-                            </p>
-                            <div class="fact_row">
-                                <span class="fact_chip">Async Python</span>
-                                <span class="fact_chip">FastAPI / Clean Architecture</span>
-                                <span class="fact_chip">OSINT &amp; Security</span>
+            <div class="main_col">
+                <section id="About_me" class="about_me_block panel">
+                    <div class="section_label">About me</div>
+                    <h2>Who I am</h2>
+                    <p class="about">
+                        Applied Mathematics student at DNU focused on async Python backends, scraping/OSINT systems,
+                        and production-shaped services with FastAPI, Redis, PostgreSQL/MongoDB, and Docker.
+                        I build public portfolio systems that demonstrate Clean Architecture, resilient workers, and real ops tooling.
+                    </p>
+                    <ul class="quick_facts">
+                        <li>Async Python: FastAPI, aiohttp, Playwright, SQLAlchemy 2.0</li>
+                        <li>Data &amp; OSINT pipelines with Redis queues, DLQ, and Docker Compose</li>
+                        <li>Open to Junior / Strong Junior Python backend roles</li>
+                    </ul>
+                </section>
+
+                <div class="window panel">
+                    <div class="window_overlay">
+                        <div class="meme_tag">backend · async · OSINT</div>
+                        <div class="content_intro">
+                            <div class="about_panel">
+                                <h2>About this page</h2>
+                                <p class="section_copy">
+                                    A Steam-inspired personal portfolio highlighting three production-oriented Python systems:
+                                    scraping/OSINT collection, FastAPI analytics, and an open-data security pipeline.
+                                </p>
+                                <div class="fact_row">
+                                    <span class="fact_chip">Async Python</span>
+                                    <span class="fact_chip">FastAPI / Clean Architecture</span>
+                                    <span class="fact_chip">OSINT &amp; Security</span>
+                                </div>
+                            </div>
+
+                            <div class="projects_intro">
+                                <div class="section_label">Projects</div>
+                                <h2>Featured Systems</h2>
+                                <p class="section_copy">
+                                    Three public repositories built as interview-ready backend demos — not toy To-Do apps.
+                                    Each one ships with Docker Compose and a clear architecture story.
+                                </p>
                             </div>
                         </div>
-
-                        <div class="projects_intro">
-                            <div class="section_label">Projects</div>
-                            <h2>Featured Systems</h2>
-                            <p class="section_copy">
-                                Recent backend and OSINT work on GitHub.
-                            </p>
-                        </div>
-                    </div>
 
                     <div class="project_grid">
                         <a class="project_card" href="https://github.com/Paiconys/shadowcrawl" target="_blank" rel="noreferrer">
                             <span class="project_type">OSINT / Scraping</span>
                             <strong>ShadowCrawl</strong>
-                            <span class="project_summary">Async public-source collector with aiohttp and Playwright.</span>
+                            <span class="project_summary">Async public-source collector with dual-path fetching (aiohttp + Playwright), Redis queues, and MongoDB storage.</span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">Python 3.12</span>
+                                <span class="tech_badge">Playwright</span>
+                                <span class="tech_badge">Redis</span>
+                                <span class="tech_badge">MongoDB</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
 
                         <a class="project_card" href="https://github.com/Paiconys/vacancy-pulse" target="_blank" rel="noreferrer">
-                            <span class="project_type">FastAPI</span>
+                            <span class="project_type">FastAPI / Analytics</span>
                             <strong>VacancyPulse API</strong>
-                            <span class="project_summary">REST API for vacancy search and market analytics.</span>
+                            <span class="project_summary">REST API with Clean Architecture for vacancy search, filtering, and Redis-cached market analytics.</span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">FastAPI</span>
+                                <span class="tech_badge">SQLAlchemy 2.0</span>
+                                <span class="tech_badge">PostgreSQL</span>
+                                <span class="tech_badge">Redis</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
 
                         <a class="project_card" href="https://github.com/Paiconys/opensignal-pipeline" target="_blank" rel="noreferrer">
-                            <span class="project_type">Pipeline</span>
+                            <span class="project_type">Pipeline / Security</span>
                             <strong>OpenSignal Pipeline</strong>
-                            <span class="project_summary">Open-data workers with queue handling and TLS enrichment.</span>
+                            <span class="project_summary">Open-data workers with retry/DLQ handling and HTTP/TLS security fingerprint enrichment.</span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">Async Workers</span>
+                                <span class="tech_badge">Redis Queue</span>
+                                <span class="tech_badge">PostgreSQL</span>
+                                <span class="tech_badge">TLS/HTTP FP</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
                     </div>
                 </div>
+            </div>
             </div>
 
             <aside class="right_col panel">
