@@ -13,17 +13,28 @@
     box-sizing: border-box;
 }
 
+html {
+    color-scheme: dark;
+    background-color: #1a001a;
+    background-image: url("./img/missing-texture-tile.png");
+    background-repeat: repeat;
+    background-size: 64px 64px;
+    min-height: 100%;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-main);
+    background-color: transparent;
     background-image:
         linear-gradient(rgba(7, 13, 21, 0.4), rgba(7, 13, 21, 0.55)),
         url("./img/photo-1628953535333-a64a918181c0.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 a {
