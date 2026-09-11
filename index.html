@@ -1,6 +1,6 @@
-<!--  
+<!--
      PLAN
-    
+
     global header(
         download cv
 
@@ -12,7 +12,7 @@
         telegram
     )
     profile header (
-    picture 
+    picture
     cool frame for picture
     name
     small about me
@@ -25,7 +25,7 @@
     )
 
 
-    profile right col 
+    profile right col
     (
         current state
 
@@ -37,7 +37,7 @@
         companys worked
 
         university like a group
-        
+
 
 
     )
@@ -53,7 +53,7 @@
     <meta charset="UTF-8">
     <title>Dmitry Karmazin | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Student developer portfolio of Dmitry Karmazin: university projects, lab work, and programming portfolio.">
+    <meta name="description" content="Python backend & OSINT portfolio of Dmitry Karmazin: ShadowCrawl, VacancyPulse API, and OpenSignal Pipeline.">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="profile_header_centred_col">
-                <p class="eyebrow">Student Developer</p>
+                <p class="eyebrow">Junior Python Backend / OSINT</p>
                 <h1 class="name">Dmitry Karmazin</h1>
 
                 <div class="location">
@@ -94,15 +94,15 @@
 
                 <div class="section_label">About me</div>
                 <p class="about">
-                    I am an Applied Mathematics student at DNU building a public portfolio from real university labs,
-                    backend exercises, and small programming projects. I mainly work with C++, Java, Python,
-                    JavaScript, and Prolog, and I enjoy turning rough coursework into cleaner repos with readable structure.
+                    Applied Mathematics student at DNU focused on async Python backends, scraping/OSINT systems,
+                    and production-shaped services with FastAPI, Redis, PostgreSQL/MongoDB, and Docker.
+                    I build public portfolio systems that demonstrate Clean Architecture, resilient workers, and real ops tooling.
                 </p>
 
                 <ul class="quick_facts">
-                    <li>Coursework-based portfolio with public GitHub repos</li>
-                    <li>Interested in backend, problem solving, and software engineering</li>
-                    <li>Currently improving old projects and turning them into clean portfolio entries</li>
+                    <li>Async Python: FastAPI, aiohttp, Playwright, SQLAlchemy 2.0</li>
+                    <li>Data & OSINT pipelines with Redis queues, DLQ, and Docker Compose</li>
+                    <li>Open to Junior / Strong Junior Python backend roles</li>
                 </ul>
             </div>
 
@@ -117,70 +117,106 @@
                     <div class="uni_name">Dnipro National University</div>
                 </div>
 
-                <div class="status_note">Actively filling this page with finished university work.</div>
+                <div class="status_note">Showcasing production-grade Python backend &amp; OSINT systems.</div>
             </div>
         </section>
 
         <section id="Main_content">
             <div class="window panel">
                 <div class="window_overlay">
-                    <div class="meme_tag">still assembling the portfolio...</div>
+                    <div class="meme_tag">backend · async · OSINT</div>
                     <div class="content_intro">
                         <div class="about_panel">
                             <h2>About this page</h2>
                             <p class="section_copy">
-                                This is a small personal portfolio inspired by a Steam-like layout, but focused on real
-                                study work, programming practice, and repositories that already contain useful code.
+                                A Steam-inspired personal portfolio highlighting three production-oriented Python systems:
+                                scraping/OSINT collection, high-RPS FastAPI analytics, and an open-data security pipeline.
                             </p>
                             <div class="fact_row">
-                                <span class="fact_chip">Applied Mathematics</span>
-                                <span class="fact_chip">University Projects</span>
-                                <span class="fact_chip">GitHub Portfolio</span>
+                                <span class="fact_chip">Async Python</span>
+                                <span class="fact_chip">FastAPI / Clean Architecture</span>
+                                <span class="fact_chip">OSINT &amp; Security</span>
                             </div>
                         </div>
 
                         <div class="projects_intro">
                             <div class="section_label">Projects</div>
-                            <h2>Featured Repositories</h2>
+                            <h2>Featured Systems</h2>
                             <p class="section_copy">
-                                A few public repositories that already show real code instead of empty placeholders.
+                                Three public repositories built as interview-ready backend demos — not toy To-Do apps.
                             </p>
                         </div>
                     </div>
 
                     <div class="project_grid">
-                        <a class="project_card" href="https://github.com/Paiconys/prolog-ai-labs-2025-2026" target="_blank" rel="noreferrer">
-                            <span class="project_type">Prolog</span>
-                            <strong>AI Labs 1-4</strong>
-                            <span>Source files extracted from reports and separated into clean lab folders.</span>
+                        <a class="project_card" href="https://github.com/Paiconys/shadowcrawl" target="_blank" rel="noreferrer">
+                            <span class="project_type">OSINT / Scraping</span>
+                            <strong>ShadowCrawl</strong>
+                            <span class="project_summary">
+                                High-throughput OSINT collector with a dual-path engine (aiohttp + Playwright escalation),
+                                proxy/UA rotation, block-detection heuristics, and SHA-256 deduplicated MongoDB storage.
+                            </span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">Python 3.12</span>
+                                <span class="tech_badge">Asyncio</span>
+                                <span class="tech_badge">Playwright</span>
+                                <span class="tech_badge">aiohttp</span>
+                                <span class="tech_badge">Redis</span>
+                                <span class="tech_badge">MongoDB</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
 
-                        <a class="project_card" href="https://github.com/Paiconys/java-backend-maven-labs-2023" target="_blank" rel="noreferrer">
-                            <span class="project_type">Java / Maven</span>
-                            <strong>Multi-module Calculator</strong>
-                            <span>University Maven project with source code and lab report stored separately.</span>
+                        <a class="project_card" href="https://github.com/Paiconys/vacancy-pulse" target="_blank" rel="noreferrer">
+                            <span class="project_type">FastAPI / Analytics</span>
+                            <strong>VacancyPulse API</strong>
+                            <span class="project_summary">
+                                Enterprise REST API with Clean Architecture for high-RPS market data, complex filtering,
+                                and Redis caching on hot analytics endpoints.
+                            </span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">Python 3.12</span>
+                                <span class="tech_badge">FastAPI</span>
+                                <span class="tech_badge">SQLAlchemy 2.0</span>
+                                <span class="tech_badge">PostgreSQL</span>
+                                <span class="tech_badge">Redis</span>
+                                <span class="tech_badge">Pydantic v2</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
 
-                        <a class="project_card" href="https://github.com/Paiconys/methods-of-programming-labs-2025-2026" target="_blank" rel="noreferrer">
-                            <span class="project_type">Dafny</span>
-                            <strong>Methods of Programming Labs</strong>
-                            <span>Formal methods coursework repository with multiple structured lab tasks.</span>
+                        <a class="project_card" href="https://github.com/Paiconys/opensignal-pipeline" target="_blank" rel="noreferrer">
+                            <span class="project_type">Pipeline / Security</span>
+                            <strong>OpenSignal Pipeline</strong>
+                            <span class="project_summary">
+                                Automated open-data pipeline with resilient async workers, Dead-Letter Queue handling,
+                                and HTTP/TLS security fingerprinting enrichment.
+                            </span>
+                            <div class="tech_badges" aria-label="Tech stack">
+                                <span class="tech_badge">Python 3.12</span>
+                                <span class="tech_badge">Async Workers</span>
+                                <span class="tech_badge">Redis Queue</span>
+                                <span class="tech_badge">PostgreSQL</span>
+                                <span class="tech_badge">FastAPI</span>
+                                <span class="tech_badge">TLS/HTTP FP</span>
+                                <span class="tech_badge">Docker</span>
+                            </div>
                         </a>
                     </div>
                 </div>
             </div>
 
             <aside class="right_col panel">
-                <div class="job_indicator">Open to internships / junior opportunities</div>
+                <div class="job_indicator">Open to Junior Python roles</div>
 
                 <div class="resume">Core Stack</div>
 
                 <div class="most_used_languages">
-                    <span>Most used languages:</span>
+                    <span>Primary focus:</span>
                     <div class="language_icons">
+                        <img src="./img/python.png" class="plang" alt="Python">
                         <img src="./img/c++.png" class="plang" alt="C++">
                         <img src="./img/java.png" class="plang" alt="Java">
-                        <img src="./img/python.png" class="plang" alt="Python">
                     </div>
                 </div>
 
@@ -190,22 +226,26 @@
                 </div>
 
                 <div class="side_block">
-                    <h3>Projects</h3>
-                    <p>Public repositories are gradually being cleaned up and separated into code + report format.</p>
+                    <h3>Featured Projects</h3>
+                    <ul>
+                        <li><a href="https://github.com/Paiconys/shadowcrawl" target="_blank" rel="noreferrer">ShadowCrawl</a></li>
+                        <li><a href="https://github.com/Paiconys/vacancy-pulse" target="_blank" rel="noreferrer">VacancyPulse API</a></li>
+                        <li><a href="https://github.com/Paiconys/opensignal-pipeline" target="_blank" rel="noreferrer">OpenSignal Pipeline</a></li>
+                    </ul>
                 </div>
 
                 <div class="side_block">
                     <h3>What I work on</h3>
                     <ul>
-                        <li>University labs and coursework</li>
-                        <li>Backend and console applications</li>
-                        <li>Code cleanup for portfolio publishing</li>
+                        <li>Async FastAPI services &amp; Clean Architecture</li>
+                        <li>OSINT scraping workers &amp; Redis queues</li>
+                        <li>Security fingerprinting &amp; data pipelines</li>
                     </ul>
                 </div>
 
                 <div class="side_block">
                     <h3>Current focus</h3>
-                    <p>Turning older study work into cleaner public repositories with readable structure.</p>
+                    <p>Shipping production-shaped Python systems with Docker, tests, and clear architecture for interviews.</p>
                 </div>
             </aside>
         </section>
@@ -213,8 +253,8 @@
 
     <footer class="footer">
         <div class="footer_inner">
-            <strong>Site is still under development.</strong>
-            <span>More projects and cleaner sections will be added over time.</span>
+            <strong>Portfolio updated with production-grade Python systems.</strong>
+            <span>ShadowCrawl · VacancyPulse · OpenSignal — public on GitHub.</span>
         </div>
     </footer>
 </body>
